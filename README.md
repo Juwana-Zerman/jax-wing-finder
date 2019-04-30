@@ -1,68 +1,63 @@
+# Neighborhood Map Project (Jax Wing Finder)
+
+## Overview
+
+The Neighborhood Map Project was built to fulfill requirements for the Udacity Front-End Developer Nanodegree. This is a single page app built using React. The app uses the Google Maps JavaScript API and FourSquare API to list restaurant locations serving wings in the Jacksonville, FL area.
+
+![jaxscreenshot](https://user-images.githubusercontent.com/38802201/46776723-eadba480-ccda-11e8-956f-f952542f273f.png)
+
+## [View Live Demo]()
+
+## Development Tools
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Google Maps was implemented using the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
-In the project directory, you can run:
+The [FourSquare API](https://developer.foursquare.com/) was used to fetch data about restaurant locations
 
-### `npm start`
+[Axios](https://github.com/axios/axios) was used to fetch data from the [FourSquare API](https://developer.foursquare.com/) about restaurant locations
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Other Development Tools
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* CSS
 
-### `npm test`
+* HTML
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* JavaScript
 
-### `npm run build`
+## Start the App
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Make sure that you have Node.js installed on your local and then download or clone    this repository
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* Navigate to the cloned file and type the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  npm install
 
-### `npm run eject`
+* Then:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The browser will automatically open the Neighborhood Map App. If it doesn't, visit localhost:3000 in the browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Start the App in Production Mode
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* To run the App in production mode type the following command:
 
-## Learn More
+  npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Then:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  python -m SimpleHTTPServer 8000
 
-### Code Splitting
+  Then the App should run on port 8000 or localhost:8000 in the browser
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Resources Used
 
-### Analyzing the Bundle Size
+Resources consulted to build this project include:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Walkthroughs by:
 
-### Making a Progressive Web App
+Yahya Elharony at <https://www.youtube.com/channel/UCcWSbBe_s-T_gZRnqFbtyIA>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Filter function derived from [W3Schools](https://www.w3schools.com/howto/howto_js_filter_lists.asp)
