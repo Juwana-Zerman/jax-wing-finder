@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jax-wing-finder/static/css/main.ddba69bc.chunk.css",
+    "main.js": "/jax-wing-finder/static/js/main.97bbfa4a.chunk.js",
+    "main.js.map": "/jax-wing-finder/static/js/main.97bbfa4a.chunk.js.map",
+    "runtime~main.js": "/jax-wing-finder/static/js/runtime~main.b1018ee2.js",
+    "runtime~main.js.map": "/jax-wing-finder/static/js/runtime~main.b1018ee2.js.map",
+    "static/js/2.98d77448.chunk.js": "/jax-wing-finder/static/js/2.98d77448.chunk.js",
+    "static/js/2.98d77448.chunk.js.map": "/jax-wing-finder/static/js/2.98d77448.chunk.js.map",
+    "index.html": "/jax-wing-finder/index.html",
+    "precache-manifest.c4a7e77748b619bf4d47e66272420bd3.js": "/jax-wing-finder/precache-manifest.c4a7e77748b619bf4d47e66272420bd3.js",
+    "service-worker.js": "/jax-wing-finder/service-worker.js",
+    "static/css/main.ddba69bc.chunk.css.map": "/jax-wing-finder/static/css/main.ddba69bc.chunk.css.map"
+  }
+}
