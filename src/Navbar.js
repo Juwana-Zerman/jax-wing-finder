@@ -61,9 +61,9 @@ class Navbar extends Component {
 							key={eachVenue.venue.id}
 							onClick={()=>this.handleEvent(eachVenue)}
 							onKeyPress={()=>this.handleEvent(eachVenue)}
-							id={eachVenue.venue.name}
+							id={eachVenue.venue.id}
 							>
-							<a href='#'>
+							<a href='#venue'>
 							{eachVenue.venue.name}
 							</a>
 							</li>

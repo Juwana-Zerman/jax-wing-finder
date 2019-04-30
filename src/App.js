@@ -71,7 +71,8 @@ class App extends Component {
     const infoWindow = new window.google.maps.InfoWindow();
 
     //loop through venues array to generate markers
-    this.state.venues.map(theVenue => {
+    // eslint-disable-next-line array-callback-return
+    this.state.venues.map((theVenue) => {
       console.log(theVenue);
 
       const contentString = `<div id="content-info" tabIndex="0">   
@@ -87,7 +88,7 @@ class App extends Component {
           marker.setAnimation(null);
         }, 1500);
       }
-
+    
       //create markers for the venues
       const theMarker = new window.google.maps.Marker({
         position: {
@@ -108,7 +109,7 @@ class App extends Component {
         //open the infoWindow
         infoWindow.open(theMap, theMarker)
       });
-
+    
       this.setState({
         markers: [...this.state.markers, theMarker]
       });
