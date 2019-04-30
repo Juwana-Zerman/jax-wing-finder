@@ -1,33 +1,128 @@
-.App {
-  text-align: center;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#map {
+  height: 100vh;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+#navbar {
+  z-index: 10;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 300px;
+  height: 100%;
+  overflow: scroll;
+  background-color: #09a89e;
+  height: 100%;
+}
+
+li {
+  padding: 4px;
+  margin: 4px;
+  margin-left: -30px;
+  color: #050808;
+  border: 3px solid #0a0808;
+  border-radius: 5px;
+}
+
+#listInput {
+  width: 90%;
+  border: 3px solid #0a0808;
+  border-radius: 5px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #d88e8e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #09a89e;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: slategrey;
+  color: #71dbd4;
+}
+
+.jax {
+  margin: 10px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu:hover {
+  transition: 0.1s ease;
+  background-color: #566362;
+  font-size: 18px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.footer {
+  position: fixed;
+  background-color: #09a89e;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #0a0808;
+  height: 30px;
+  margin-top: -30px;
+}
+
+#foursquare-img {
+  height: 25px;
+  width: 25px;
+}
+
+#content-info {
+  background-color: aqua;
+  border: 2px solid #0a0808;
+  border-radius: 5px;
+}
+
+/* Media queries to make responsive*/
+@media screen and (max-width: 450px) {
+  #navbar {
+    width: 35%;
   }
-  to {
-    transform: rotate(360deg);
+
+  li {
+    font-size: 10px;
   }
 }
