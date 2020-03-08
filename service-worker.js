@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jax-wing-finder/precache-manifest.c4a7e77748b619bf4d47e66272420bd3.js"
+  "/jax-wing-finder/precache-manifest.318d5a0ebc2bbf6a7be335994d79397e.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/jax-wing-finder/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
