@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jax-wing-finder/static/css/main.a9b1cb89.chunk.css",
+    "main.css": "/jax-wing-finder/static/css/main.3388ab3b.chunk.css",
     "main.js": "/jax-wing-finder/static/js/main.d530eb7b.chunk.js",
     "main.js.map": "/jax-wing-finder/static/js/main.d530eb7b.chunk.js.map",
     "runtime-main.js": "/jax-wing-finder/static/js/runtime-main.78b9abc2.js",
@@ -8,15 +8,15 @@
     "static/js/2.72488f5c.chunk.js": "/jax-wing-finder/static/js/2.72488f5c.chunk.js",
     "static/js/2.72488f5c.chunk.js.map": "/jax-wing-finder/static/js/2.72488f5c.chunk.js.map",
     "index.html": "/jax-wing-finder/index.html",
-    "precache-manifest.318d5a0ebc2bbf6a7be335994d79397e.js": "/jax-wing-finder/precache-manifest.318d5a0ebc2bbf6a7be335994d79397e.js",
+    "precache-manifest.247d419ee2b5dea6e3ce5a004002ee74.js": "/jax-wing-finder/precache-manifest.247d419ee2b5dea6e3ce5a004002ee74.js",
     "service-worker.js": "/jax-wing-finder/service-worker.js",
-    "static/css/main.a9b1cb89.chunk.css.map": "/jax-wing-finder/static/css/main.a9b1cb89.chunk.css.map",
+    "static/css/main.3388ab3b.chunk.css.map": "/jax-wing-finder/static/css/main.3388ab3b.chunk.css.map",
     "static/js/2.72488f5c.chunk.js.LICENSE.txt": "/jax-wing-finder/static/js/2.72488f5c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.78b9abc2.js",
     "static/js/2.72488f5c.chunk.js",
-    "static/css/main.a9b1cb89.chunk.css",
+    "static/css/main.3388ab3b.chunk.css",
     "static/js/main.d530eb7b.chunk.js"
   ]
 }
