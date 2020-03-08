@@ -31,7 +31,7 @@ class App extends Component {
   }
 
   loadTheMap = () => {
-    loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyBqKIezQ6vPrfhO0UgjsPZcD4EbpkRiSNg&callback=initMap');
+    loadScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyCtz46pKs02Iip2O3Bal9hy5GMzFmaJoIY&callback=initMap');
     window.initMap = this.initMap;
   }
 
@@ -75,7 +75,7 @@ class App extends Component {
     this.state.venues.map((theVenue) => {
       console.log(theVenue);
 
-      const contentString = `<div id="content-info" tabIndex="0">   
+      const contentString = `<div id="content-info" tabIndex="0">
       <h3>${theVenue.venue.name}</h3>
       <p>${theVenue.venue.location.formattedAddress[0]}<br>
       ${theVenue.venue.location.formattedAddress[1]}</p>
@@ -88,7 +88,7 @@ class App extends Component {
           marker.setAnimation(null);
         }, 1500);
       }
-    
+
       //create markers for the venues
       const theMarker = new window.google.maps.Marker({
         position: {
@@ -109,7 +109,7 @@ class App extends Component {
         //open the infoWindow
         infoWindow.open(theMap, theMarker)
       });
-    
+
       this.setState({
         markers: [...this.state.markers, theMarker]
       });
