@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jax-wing-finder/precache-manifest.247d419ee2b5dea6e3ce5a004002ee74.js"
+  "/jax-wing-finder/precache-manifest.032eb21675e61702f3033db813564784.js"
 );
 
 self.addEventListener('message', (event) => {
