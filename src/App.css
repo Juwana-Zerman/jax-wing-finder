@@ -8,9 +8,8 @@ body {
   min-height: 100%;
 }
 #map {
-  height: 100vh;
-  position: absolute;
-  bottom: 0;
+  height: 100vh - 20px;
+  position: relative;
 }
 
 ul {
