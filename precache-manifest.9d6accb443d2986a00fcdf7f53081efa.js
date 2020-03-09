@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c97b995fc9792119489726365670098d",
+    "revision": "fb2ef0bcaba4ca1709dd518704f923be",
     "url": "/jax-wing-finder/index.html"
   },
   {
-    "revision": "0c931de00bed1c817601",
-    "url": "/jax-wing-finder/static/css/main.0d1c1e66.chunk.css"
+    "revision": "d832d2e246cf96cd5e17",
+    "url": "/jax-wing-finder/static/css/main.40613e68.chunk.css"
   },
   {
     "revision": "2b94158c36071e7762fc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jax-wing-finder/static/js/2.72488f5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c931de00bed1c817601",
+    "revision": "d832d2e246cf96cd5e17",
     "url": "/jax-wing-finder/static/js/main.d530eb7b.chunk.js"
   },
   {
